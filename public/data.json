@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/7C4GRvF/group-diverse-volunteers-53876-47127.webp",
+        "title": "Clean Water for Children",
+        "category": "Health",
+        "category_bg_color": "#AEC8FF",
+        "card_bg_color": "#D9E5FF",
+        "text_color": "#0052FF",
+        "description": "Your support can make a world of difference in the lives of children by providing access to clean and safe drinking water. Help us provide critical medical supplies to healthcare workers and patients affected by COVID-19, ensuring a healthier future for all. Together, we can bring hope and healing to communities in need.",
+        "price": 50
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/wpWdvCY/close-up-people-holding-apples-bag-23-2149182018.webp",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#FDD2C4",
+        "card_bg_color": "#FEEAE3",
+        "text_color": "#F87147",
+        "description": "We believe that everyone deserves access to nutritious meals. With your support, we can make that a reality. Join our initiative to provide nutritious meals to underprivileged children in our community, giving them the energy and nutrition they need to thrive. Your contribution will make a lasting impact on young lives and foster a healthier, happier community.",
+        "price": 40
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/SP2s3Np/shallow-focus-shot-african-child-learning-school-181624-36498.webp",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#f39c12",
+        "card_bg_color": "#FFC3C5",
+        "text_color": "#FF444A",
+        "description": "Education is the key to a brighter future, and your support can unlock that potential. Help empower young minds by offering scholarships to deserving students who aspire to pursue higher education. By investing in education, you are investing in the future of our society. Join us in making quality education accessible to all.",
+        "price": 60
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/LhPhRgr/volunteers-using-digital-tablet-1170-1802.webp",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#D4ECC1",
+        "card_bg_color": "#EBF6E2",
+        "text_color": "#79C23F",
+        "description": "Winter can be harsh, especially for those without warm clothing. Join us in providing much-needed warmth and comfort to those in need during the winter season. Your contribution will help distribute warm clothing and blankets to individuals and families, offering them protection from the cold and a brighter outlook on life.",
+        "price": 30
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/7C4GRvF/group-diverse-volunteers-53876-47127.webp",
+        "title": "Clean Water for Children",
+        "category": "Health",
+        "category_bg_color": "#AEC8FF",
+        "card_bg_color": "#D9E5FF",
+        "text_color": "#0052FF",
+        "description": "Your support can make a world of difference in the lives of children by providing access to clean and safe drinking water. Help us provide critical medical supplies to healthcare workers and patients affected by COVID-19, ensuring a healthier future for all. Together, we can bring hope and healing to communities in need.",
+        "price": 50
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/SP2s3Np/shallow-focus-shot-african-child-learning-school-181624-36498.webp",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#f39c12",
+        "card_bg_color": "#FFC3C5",
+        "text_color": "#FF444A",
+        "description": "Education is the key to a brighter future, and your support can unlock that potential. Help empower young minds by offering scholarships to deserving students who aspire to pursue higher education. By investing in education, you are investing in the future of our society. Join us in making quality education accessible to all.",
+        "price": 60
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/LhPhRgr/volunteers-using-digital-tablet-1170-1802.webp",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#D4ECC1",
+        "card_bg_color": "#EBF6E2",
+        "text_color": "#79C23F",
+        "description": "Winter can be harsh, especially for those without warm clothing. Join us in providing much-needed warmth and comfort to those in need during the winter season. Your contribution will help distribute warm clothing and blankets to individuals and families, offering them protection from the cold and a brighter outlook on life.",
+        "price": 30
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/wpWdvCY/close-up-people-holding-apples-bag-23-2149182018.webp",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#FDD2C4",
+        "card_bg_color": "#FEEAE3",
+        "text_color": "#F87147",
+        "description": "We believe that everyone deserves access to nutritious meals. With your support, we can make that a reality. Join our initiative to provide nutritious meals to underprivileged children in our community, giving them the energy and nutrition they need to thrive. Your contribution will make a lasting impact on young lives and foster a healthier, happier community.",
+        "price": 40
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/LhPhRgr/volunteers-using-digital-tablet-1170-1802.webp",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#D4ECC1",
+        "card_bg_color": "#EBF6E2",
+        "text_color": "#79C23F",
+        "description": "Winter can be harsh, especially for those without warm clothing. Join us in providing much-needed warmth and comfort to those in need during the winter season. Your contribution will help distribute warm clothing and blankets to individuals and families, offering them protection from the cold and a brighter outlook on life.",
+        "price": 30
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/SP2s3Np/shallow-focus-shot-african-child-learning-school-181624-36498.webp",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#f39c12",
+        "card_bg_color": "#FFC3C5",
+        "text_color": "#FF444A",
+        "description": "Education is the key to a brighter future, and your support can unlock that potential. Help empower young minds by offering scholarships to deserving students who aspire to pursue higher education. By investing in education, you are investing in the future of our society. Join us in making quality education accessible to all.",
+        "price": 60
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/7C4GRvF/group-diverse-volunteers-53876-47127.webp",
+        "title": "Clean Water for Children",
+        "category": "Health",
+        "category_bg_color": "#AEC8FF",
+        "card_bg_color": "#D9E5FF",
+        "text_color": "#0052FF",
+        "description": "Your support can make a world of difference in the lives of children by providing access to clean and safe drinking water. Help us provide critical medical supplies to healthcare workers and patients affected by COVID-19, ensuring a healthier future for all. Together, we can bring hope and healing to communities in need.",
+        "price": 50
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/wpWdvCY/close-up-people-holding-apples-bag-23-2149182018.webp",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#FDD2C4",
+        "card_bg_color": "#FEEAE3",
+        "text_color": "#F87147",
+        "description": "We believe that everyone deserves access to nutritious meals. With your support, we can make that a reality. Join our initiative to provide nutritious meals to underprivileged children in our community, giving them the energy and nutrition they need to thrive. Your contribution will make a lasting impact on young lives and foster a healthier, happier community.",
+        "price": 40
+    }
+]
