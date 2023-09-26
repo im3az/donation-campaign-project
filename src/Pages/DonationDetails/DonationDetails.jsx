@@ -14,7 +14,7 @@ const DonationDetails = () => {
     setDonation(donationDetails);
   }, [intId, donations]);
 
-  console.log(donation);
+  // console.log(donation);
   return (
     <div>
       <DonationDetailsCard donation={donation}></DonationDetailsCard>

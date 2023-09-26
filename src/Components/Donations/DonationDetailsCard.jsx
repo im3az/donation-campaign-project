@@ -1,4 +1,5 @@
 import React from "react";
+import swal from "sweetalert";
 
 const DonationDetailsCard = ({ donation }) => {
   const {
@@ -13,6 +14,28 @@ const DonationDetailsCard = ({ donation }) => {
     price,
   } = donation || {};
 
+  const handleAddToDonate = () => {
+    const addedDonatedArray = [];
+
+    const donatedItems = JSON.parse(localStorage.getItem("donated"));
+
+    if (!donatedItems) {
+      addedDonatedArray.push(donation);
+      localStorage.setItem("donated", JSON.stringify(addedDonatedArray));
+      swal("Thank you!", "Donation added!", "success");
+    } else {
+      const isExists = donatedItems.find((item) => item.id === id);
+
+      if (!isExists) {
+        addedDonatedArray.push(...donatedItems, donation);
+        localStorage.setItem("donated", JSON.stringify(addedDonatedArray));
+        swal("Thank you!", "Donation added!", "success");
+      } else {
+        swal("Sorry!", "Donation already added!", "error");
+      }
+    }
+  };
+
   return (
     <div>
       <div className="relative bg-white border shadow-sm rounded-xl">
@@ -24,6 +47,7 @@ const DonationDetailsCard = ({ donation }) => {
         <div className="absolute bottom-0 left-0 right-0">
           <div className="p-4 md:p-5 hero-overlay bg-black bg-opacity-50">
             <button
+              onClick={handleAddToDonate}
               className="btn border-none  text-white"
               style={{ backgroundColor: text_color }}
             >
