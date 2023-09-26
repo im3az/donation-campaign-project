@@ -17,22 +17,24 @@ const DonationDetailsCard = ({ donation }) => {
     <div>
       <div className="relative bg-white border shadow-sm rounded-xl">
         <img
-          className="w-full h-auto lg:h-[720px] rounded-xl"
+          className="w-full h-auto lg:h-[700px] rounded-xl"
           src={picture}
           alt="Image Description"
         />
-        <div className="absolute top-0 left-0 right-0">
-          <div className="p-4 md:p-5">
-            <h3 className="text-lg font-bold text-gray-800">Card title</h3>
-            <p className="mt-1 text-gray-800">
-              Some quick example text to build on the card title and make up the
-              bulk of the cards content.
-            </p>
-            <p className="mt-5 text-xs text-gray-500">
-              Last updated 5 mins ago
-            </p>
+        <div className="absolute bottom-0 left-0 right-0">
+          <div className="p-4 md:p-5 hero-overlay bg-black bg-opacity-50">
+            <button
+              className="btn border-none  text-white"
+              style={{ backgroundColor: text_color }}
+            >
+              Donate ${price}
+            </button>
           </div>
         </div>
+      </div>
+      <div className="py-14">
+        <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold">{title}</h2>
+        <p className="mt-5 text-lg">{description}</p>
       </div>
     </div>
   );
