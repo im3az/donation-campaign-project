@@ -34,6 +34,11 @@ const DonationDetailsCard = ({ donation }) => {
         swal("Sorry!", "Donation already added!", "error");
       }
     }
+    // console.log(addedDonatedArray.length);
+    localStorage.setItem(
+      "donationGiven",
+      JSON.stringify(addedDonatedArray.length)
+    );
   };
 
   return (
