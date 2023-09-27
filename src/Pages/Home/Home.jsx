@@ -1,20 +1,20 @@
 import { useLoaderData } from "react-router-dom";
 import Donations from "../../Components/Donations/Donations";
 import Banner from "../../Components/Header/Banner/Banner";
+import { useState } from "react";
 
 const Home = () => {
+  const [searchedValue, setSearchValue] = useState("");
   const donations = useLoaderData();
-  // console.log(donations);
-  // const total = donations.reduce(
-  //   (pre, currentItem) => pre + currentItem.price,
-  //   0
-  // );
-  // console.log(total);
+  // console.log(searchedValue);
 
   return (
     <div>
-      <Banner></Banner>
-      <Donations donations={donations}></Donations>
+      <Banner setSearchValue={setSearchValue}></Banner>
+      <Donations
+        searchedValue={searchedValue}
+        donations={donations}
+      ></Donations>
     </div>
   );
 };

@@ -1,7 +1,14 @@
-const Banner = () => {
-  const handleSubmit=e=>{
+import { useState } from "react";
+
+const Banner = ({ setSearchValue }) => {
+  const [inputValue, setInputValue] = useState("");
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-  }
+    const newValue = e.target.searched.value;
+    setInputValue(newValue);
+    setSearchValue(newValue);
+  };
   return (
     <div
       className="hero min-h-[600px]"
@@ -17,10 +24,14 @@ const Banner = () => {
           </h1>
 
           <div>
-            <form onSubmit={handleSubmit} className="relative flex rounded-md shadow-sm">
+            <form
+              onSubmit={handleSubmit}
+              className="relative flex rounded-md shadow-sm"
+            >
               <input
+                name="searched"
                 type="text"
-                className="py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-l-md text-sm focus:z-10 "
+                className="py-3 px-4 pl-11 block w-full text-black border-gray-200 shadow-sm rounded-l-md text-sm focus:z-10 "
                 placeholder="Search here"
               />
               <input
