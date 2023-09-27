@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center px-7 lg:px-0 py-8 ">
       <div className="">
         <div>
-          <img src="/public/Logo.png" alt="" />
+          <img src="https://i.ibb.co/4WLW93V/Logo.png" alt="" />
         </div>
       </div>
 

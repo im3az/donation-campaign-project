@@ -20,8 +20,8 @@ const Statistics = () => {
 
   const total = 100 - donatedPercent;
 
-  console.log(donatedPercent);
-  console.log(total);
+  // console.log(donatedPercent);
+  // console.log(total);
 
   const data = [
     { name: "Your donation", value: donatedPercent },
